@@ -1,0 +1,74 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    /* width: 180px; */
+    position: relative;
+}
+
+.navbar {
+    background-color: #9c9c9c!important;
+    padding-bottom: 20px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 350px;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px 3px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    color: #1b1b1b;
+    background: linear-gradient(#fff1f121, #ffffff);
+    width: 100%;
+    font-size: 15px;
+}
+
+.mbottom-100 {
+    margin-bottom: 50px
+}
+
+.flexBox {
+    display: contents;
+}
+
+a {
+    cursor: pointer;
+    display: block;
+}
+
+a i {
+    padding: 4px;
+    font-size: 20px !important;
+    color: red;
+    text-shadow: 2px 0px 0px #fff;
+}
+
+#sort-btn {
+    float: right;
+    background-color: #f31111;
+    /* border: 1px solid #fff; */
+    color: #fff;
+    border-radius: 4px;
+}
+
+.alike {
+    position: absolute;
+    top: 0;
+    background-color: #ffd9d97a;
+    padding: 10px;
+    border-radius: 0px 0px 100px 0px;
+}
+
+footer {
+    background-color: #666;
+    padding: 10px;
+    margin-top: 20px;
+}
